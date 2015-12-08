@@ -37,8 +37,8 @@ so you just choose the one you like and uncomment it, i.e., you will have in you
 ```bash
 # CONFIGURATION FOR CONSOLE-GREETER BEGIN
 if test -d $HOME/.console-greeter; then
-	# bash /home/gallo/.console-greeter/greeters/alien.greeter
-	# bash /home/gallo/.console-greeter/greeters/startrek_sign.greeter
+	# bash /home/<user>/.console-greeter/greeters/alien.greeter
+	# bash /home/<user>/.console-greeter/greeters/startrek_sign.greeter
 fi
 # CONFIGURATION FOR CONSOLE-GREETER END
 
