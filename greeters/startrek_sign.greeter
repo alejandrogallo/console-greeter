@@ -9,7 +9,7 @@ echo -e "   *******$main_color.:::::::::.$no_color*******                       
 echo -e " ********$main_color.:::::::::::.$no_color********          WELCOME \033[32m$USER\033[0m                        " 
 echo -e "********$main_color.:::::::::::::.$no_color********         Platform: $(uname)                                           " 
 echo -e "*******$main_color.:::::::$no_color'***\`$main_color::::.$no_color*******         Host: $(hostname)                                     " 
-echo -e "******$main_color.::::$no_color'*********\`$main_color::.$no_color******         Processes: $(ps -ax | wc -l | tr -d ' ')                     " 
+echo -e "******$main_color.::::$no_color'*********\`$main_color::.$no_color******         Processes: $(ps -e | wc -l | tr -d ' ')                     " 
 echo -e " ****$main_color.:::$no_color'*************\`$main_color:.$no_color****                                             " 
 echo -e "   *$main_color.::$no_color'*****************\`$main_color.$no_color*                                              " 
 echo -e "   $main_color.:$no_color'  ***************    $main_color.$no_color                                            " 
