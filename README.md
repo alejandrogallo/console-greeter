@@ -22,6 +22,30 @@
 A collection of console greeters with amazing ascii art
 
 
+## Installation 
+
+At the moment there is an extremely crude installation script. 
+Just hit 
+```
+bash install.sh 
+```
+
+This will copy the repository into your home directory in the folder `.console-greeter`. 
+It will add to your `~/.bashrc` profile a list of the existing greeters commented out, 
+so you just choose the one you like and uncomment it, i.e., you will have in your `/home/<user>/.bashrc` file :
+
+```bash
+# CONFIGURATION FOR CONSOLE-GREETER BEGIN
+if test -d $HOME/.console-greeter; then
+	# bash /home/gallo/.console-greeter/greeters/alien.greeter
+	# bash /home/gallo/.console-greeter/greeters/startrek_sign.greeter
+fi
+# CONFIGURATION FOR CONSOLE-GREETER END
+
+```
+just uncomment for instance the line for the alien greeter. 
+
+
 
 
 
